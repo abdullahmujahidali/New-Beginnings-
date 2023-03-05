@@ -22,9 +22,9 @@ const HeroSection = (props) => {
         </p>
         <h1 className='text-[25px] sm:text-[35px] !font-jost font-extrabold !text-gray-900 leading-[35px] sm:leading-[45px] tracking-[0.1em] mt-[18px] mb-[17px]'>
           <span className='ms-hightlight ms-hightlight-line'>
-            Front End Developer
+            Software Engineer
           </span>{" "}
-          &<br className='hidden sm:block' /> WordPress Specialist
+          &<br className='hidden sm:block' /> Research Scholar
         </h1>
         <p className='mb-[30px] sm:mb-[39px] text-gray-900 leading-[26px] tracking-[0.01em] text-[15px]'>
           Nothing is impossible on the web, Let’s execute your idea into
@@ -48,10 +48,10 @@ const HeroSection = (props) => {
       </div>
 
       {/* Right  */}
-      <div className='sm:mt-36 order-0 md:order-1'>
+      <div className=' order-0 md:order-1'>
         <img
           src={require("../../Assets/Images/Hero_Image.png")}
-          className={tw`my-6 lg:m-0 sm:w-[570px]`}
+          className={tw`my-6 lg:m-0 sm:w-[470px]`}
           alt=''
         />
       </div>

@@ -8,6 +8,7 @@ import GitGithub from "../../Assets/Icons/Skills/GitGithub";
 import Js from "../../Assets/Icons/Skills/Js";
 import MongoDb from "../../Assets/Icons/Skills/MongoDb";
 import Nodejs from "../../Assets/Icons/Skills/Nodejs";
+import Python from "../../Assets/Icons/Skills/Python";
 import ReactIcon from "../../Assets/Icons/Skills/ReactIcon";
 import Sass from "../../Assets/Icons/Skills/Sass";
 import Tailwind from "../../Assets/Icons/Skills/Tailwind";
@@ -81,9 +82,9 @@ const ExperiencedTech = (props) => {
             data-aos-delay='700'
             className='w-52 sm:w-fit whitespace-nowrap bootstrap p-3  flex gap-2 items-center shadow-skill '
           >
-            <Bootstrap className='icon text-[22px] mr-2' />
+            <Python className='icon text-[22px] mr-2' />
             <h2 className=' text-gray-900 font-semibold border-l-2 border-gray-300 pl-4 text-[20px]'>
-              Bootstrap
+              Python
             </h2>
           </div>
 

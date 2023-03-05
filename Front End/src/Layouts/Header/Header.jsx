@@ -52,9 +52,8 @@ const Header = () => {
           <>
             {/* Logo  */}
             <div className='logo text-[16px] xsm:text-lg flex flex-col tracking-widest'>
-              Muhammad Sumon
+              <img src={require("../../Assets/Images/logo.png")} alt='abdullahmujahidali' width={120}></img>
               <span className='text-[12px] hidden sm:block py-0 my-0 text-slate-600'>
-                React Js Developer
               </span>
             </div>
 
